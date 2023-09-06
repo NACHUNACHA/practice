@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(0, 0, 255);
+    margin-left: 20px;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 14px;
+}
+
+.page-content {
+    width: 769px;
+}
+.page-content h1{
+    font-size: 3.5em;
+    color: white;
+    margin-left: 25px;
+    position: relative;
+    top: 1.5em;
+}
+header {
+    background-image: url(coronavirus.jpg);
+    background-repeat: no-repeat;
+    width: 769px;
+    height: 268px;
+    text-shadow: 4px 3px black;
+}
+
+.summary{
+    color: white;
+    background-color: rgb(128, 128, 128);
+    width: 769px;
+    padding: 25px 0px 55px 0px ;
+}
+
+.summary p{
+    margin: 0 15px 0 0 ;
+    font-size: 1.2em;
+}
+
+.topics{
+    width: 250px;
+    float: left;
+}
+
+.topics ul{
+    padding-left: 15px;
+}
+
+.topics li{
+    list-style: none;
+    padding: 5px 0 5px 0;
+}
+
+h2{
+    position: absolute;
+    width: 250px;
+    margin: 10px 0 0 10px;
+    font-variant: small-caps;
+    color: darkblue;
+}
+
+p {
+    margin-left: 250px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+.symptoms, .risks, .medicals{
+    background-color: azure;
+    padding: 10px 0 10px 0;
+}
+.explanation, .spreads, .protections {
+    background-color: beige;
+    padding: 10px 0 10px 0;
+}
+
+#symptoms ul li{
+    margin-left: 250px;
+}
+
+.risks ul{
+    margin-left: 250px;
+    margin-right: 10px
+}
+
+.protections ul{
+    margin-left: 250px;
+}
+
+.spreads ul{
+    margin-left: 250px;
+    margin-right: 10px
+}
+
+.medicals ul{
+    margin-left: 250px;
+    margin-right: 10px
+}
+
+span.covid19{
+    font-weight: bold;
+}
+.topics a{
+    color: white;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    border-bottom: dotted thin;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+}
+
